@@ -1,0 +1,29 @@
+h1 {
+    font-size: 48px;
+    color:rgb(234, 0, 0);
+}
+
+h2{
+    color:rgb(176, 2, 2);
+}
+
+body {
+    text-align: left;
+    width: 500px;
+    background-color: rgb(237, 233, 227);
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.quotes {
+    margin-bottom: 40px;
+    line-height: 1.6;
+    background-color: rgb(222, 215, 206);
+    padding: 20px;
+}
+
+.action {
+    font-size: small;
+    color: brown;
+}
