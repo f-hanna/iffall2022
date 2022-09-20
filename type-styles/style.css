@@ -1,0 +1,46 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    position: fixed;
+    width: 30%;
+}
+
+body {
+
+    margin: 5rem 10rem;
+}
+
+p {
+    font-size: 14px;
+}
+
+h4 {
+ font-size: 10px;
+ color: slategrey;
+}
+
+section {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 25rem;
+    width: 60%;
+}
+
+/* start the id */
+
+#bold {
+ font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#spaceOne {
+    letter-spacing: .3em;
+}
+
+#spaceTwo {
+    letter-spacing: -.06em;
+}
