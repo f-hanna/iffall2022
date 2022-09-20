@@ -24,6 +24,7 @@ section {
     margin-top: 10rem;
     margin-bottom: 10rem;
     margin-left: 25rem;
+
     width: 60%;
 }
 
@@ -43,4 +44,28 @@ section {
 
 #spaceTwo {
     letter-spacing: -.06em;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#line {
+    text-decoration: line-through;
+}
+
+#overline {
+    text-decoration: overline;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+#lowercase {
+    text-transform: lowercase;
+}
+
+#capitalize {
+    text-transform: capitalize;
 }
