@@ -63,7 +63,9 @@ img {
     content: "*";
 }
 
-#game-of-thrones .seasons ul li::last-child::after {
-    content: "n/Final Season";
+#game-of-thrones .seasons ul::after {
+    content: "Final Season";
+    font-size: .7rem;
+    color: #999;
 }
 
