@@ -1,0 +1,46 @@
+header {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+h1,
+h2 {
+    font-weight: lighter;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+.cast {
+    width: 25%;
+}
+
+.selected {
+    font-weight: bold;
+    color: black
+}
+
+.see-all {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+#game-of-thrones, #unbreakable-kimmy-schmidt {
+    /* solid black border */
+    margin-top: 60px;
+    border-top: solid black;
+    
+}
