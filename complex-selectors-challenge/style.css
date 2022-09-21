@@ -38,9 +38,32 @@ img {
     text-transform: uppercase;
 }
 
+.cast li {
+    font-size: .8rem;
+}
+
+.cast li img + div {
+    font-weight: bold;
+}
+
+.cast li img + div + div{
+    font-style: italic;
+}
+
+.cast li 
+
 #game-of-thrones, #unbreakable-kimmy-schmidt {
     /* solid black border */
     margin-top: 60px;
     border-top: solid black;
     
 }
+
+#game-of-thrones .seasons ul li:last-child::after {
+    content: "*";
+}
+
+#game-of-thrones .seasons ul li::last-child::after {
+    content: "n/Final Season";
+}
+
