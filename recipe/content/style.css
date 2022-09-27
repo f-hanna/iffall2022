@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(237, 233, 227);
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Poppins;
+    font-size: small;
+    vertical-align: center;
+
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+}
+
+section {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+img {
+    border-radius: 10%;
+    margin: 20px;
+}
+
+a {
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+.site a {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.column {
+    vertical-align: baseline;
+    float: left;
+    width: 50%;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 100px;
+}
+
+#image-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+#image-section h2 {
+    text-align: center;
+}
