@@ -1,0 +1,44 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 1.4;
+}
+
+
+.content {
+    background-color: rgb(160, 91, 91, 0.2);
+    width: 960px;
+    /* margin-top: 0;
+    margin-bottom: 0; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+#header.panel {
+
+    background-color: rgb(0, 90, 0, 0.2);
+    padding-bottom: 170px;
+
+}
+
+#header .content {
+    /* padding-top: 100pxpx; */
+    text-align: center;
+}
+
+h1 {
+    margin-top: 130px;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1;
+}
