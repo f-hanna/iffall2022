@@ -1,70 +1,124 @@
 html {
-    font-family: 'Archivo Narrow', sans-serif;
-    line-height: 1.4;
-}
-
-
-.content {
-    background-color: rgb(160, 91, 91, 0.2);
-    width: 960px;
-    /* margin-top: 0;
-    margin-bottom: 0; */
-    margin: auto;
-    /* text-align: center; */
-    /* padding: 20px 0; */
+    font-family: "Archivo Narrow", sans-serif;
 }
 
 #header {
-    padding: 20px 0;
-    /* padding-bottom: 300px; */
-
-}
-
-#header.panel {
-
-    background-color: rgb(0, 90, 0, 0.2);
-    padding-bottom: 190px;
-
-}
-
-#body-1.panel {
-
-    background-color: rgba(4, 92, 255, 0.2);
-    /* padding-bottom: 190px; */
-
-}
-
-#body-1 {
-    padding-bottom: 40px;
-}
-
-#body-1 img {
-    width: 400px;
-    height: 300px;
-    float: right;
-    margin: 0px 0px 32px 40px;
+    background-image: url("../images/golden-gate.jpg");
+    background-position: center -100px;
+    overflow: auto;
+    padding-top: 22px;
+    color: white;
 }
 
 h1 {
-    margin-top: 130px;
     font-size: 80px;
+    /* margin-top: 152px; */
+    margin-bottom: 0px;
+    margin-top: 130px;
+    /* font-size: 80px; */
     margin-bottom: 0;
     text-align: center;
 }
 
-h2 {
-    font-size: 40px;
-    text-align: center;
-    /* line-height: 1.5; */
+h3 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 190px;
+    line-height: 1.1;
 }
 
-h3 {
-    margin: 0;
-    font-size: 30px;
-    line-height: 1;
+h2 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 33px;
+}
+
+.content {
     text-align: center;
+    width: 960px;
+    margin: auto;
+}
+
+#body-1 {
+    background-color: rgb(185, 252, 233);
+    color: black;
+    padding: 39px;
 }
 
 p {
     font-size: 18px;
+    text-align: left;
+    line-height: 1.38;
+
+}
+
+#body-1 img {
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin: 0 0 32px 44px;
+}
+
+#body-2 {
+    background-color: rgb(10, 48, 66);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+li {
+    display: flex;
+    width: 50%;
+    margin-bottom: 24px;
+}
+
+.photo-text {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 12px;
+    padding-right: 30px;
+}
+
+.photo-text p {
+    margin-top: 5px;
+
+}
+
+
+h4 {
+    font-size: 20px;
+    margin: 0px;
+    /* margin-bottom: 6px; */
+    text-align: left;
+}
+
+#body-3 {
+    background-color: rgb(83, 77, 102);
+    padding-top: 39px;
+    padding-bottom: 40px;
+}
+
+#body-3 h3 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+    width: 731px;
+    margin: auto;
+    margin-bottom: 62px;
+}
+
+#footer {
+    padding-top: 20px;
+    background-color: rgb(29, 4, 10);
+    padding-bottom: 40px;
+    color: white;
 }
