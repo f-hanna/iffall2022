@@ -1,0 +1,40 @@
+body {
+    font-family: Poppins;
+}
+
+header {
+    height: 90%;
+    background-image: url("images/main-fried-milk.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    overflow: auto;
+    padding-top: 40%;
+    color: white;
+    margin: auto 0;
+    object-fit: fill;
+}
+
+#text-wrap {
+    width: 70%;
+    margin: auto;
+}
+
+#text-wrap > * {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#summary {
+    display: flex;
+    align-content: space-between;
+    align-self: center;
+    text-align: center;
+
+}
+
+.summary-column {
+    /* display: inline-flex; */
+    margin-left: 10%;
+
+
+}
