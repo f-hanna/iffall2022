@@ -1,4 +1,52 @@
 body {
     background-image: url("../images/monet-sunset.png");
+}
 
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: rgb(205, 205, 205);
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+}
+
+#index-container {
+    display: block;
+}
+
+#index-header {
+    color: white;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#index-header h1 {
+    font-size: 5vw;
+}
+
+#overview-text {
+
+    position: fixed;
+    top: 0;
+    left: 60vw;
+    height: 100%;
+
+    color: white;
+    background-color: rgba(29, 20, 17, 0.7);
+    background-blend-mode: multiply;
+
+    padding: 5%;
+}
+
+.btn-light {
+    margin-top: 20%;
+    color: black;
+}
+
+footer {
+    background-color: black;
 }
