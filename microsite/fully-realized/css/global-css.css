@@ -17,12 +17,14 @@ nav {
 }
 
 .impressionism-text h1 {
-    color: white;
+    color: rgba(213, 213, 213, 1);
     font-family: 'Playfair Display SC', serif;
 }
 
 .navbar-nav a {
     color: white;
+    /* color: rgba(213, 213, 213, 1); */
+
 }
 
 .navbar-nav a:hover {
@@ -30,12 +32,29 @@ nav {
     text-decoration: none;
 }
 
+.body-section {
+    background-color: rgba(213, 213, 213, 1);
+}
+
 .header-section {
     height: 60%;
     background-repeat: no-repeat;
     background-size: auto;
     background-size: cover;
+    
 }
+
+/* .navbar-nav {
+    padding-bottom: 40%;
+} */
+
+/* .navbar {
+    position: relative;
+} */
+/* 
+.impressionism-text {
+    position: absolute;
+} */
 
 .content {
     width: 80%;
