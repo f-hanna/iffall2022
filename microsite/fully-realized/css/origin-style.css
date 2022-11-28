@@ -48,3 +48,18 @@
 .content-title {
     margin: 0;
 }
+
+.quotes {
+    font-style: italic;
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+    /* background-color: rgba(29, 20, 17, 0.7);
+    background-blend-mode: multiply; */
+}
