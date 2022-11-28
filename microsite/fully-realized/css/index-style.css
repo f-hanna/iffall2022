@@ -13,7 +13,7 @@ body {
 #index-header {
     color: rgba(213, 213, 213, 1);
     font-family: 'Playfair Display SC', serif;
-    /* padding-left: 5%; */
+    padding-left: 10%;
 }
 
 #index-header h1 {

@@ -1,3 +1,50 @@
 .header-section {
     background-image: url("../images/renoir-dance-moulin-galette.png");
 }
+
+.content {
+    padding-top: 5%;
+}
+
+.content p {
+    padding-bottom: 2%;
+}
+
+.impressionism-text {
+    background-color: rgba(29, 20, 17, 0.7);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding-left: 10%;
+    bottom: 0;
+    
+}
+
+.impressionism-text h1 {
+    font-size: 5.5vw;
+}
+
+.embedded-img-section img{
+    object-fit: cover;
+    height: auto;
+}
+
+.embedded-img-right {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.embedded-img-left {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 2%;
+
+}
+
+.content-title {
+    margin: 0;
+}
