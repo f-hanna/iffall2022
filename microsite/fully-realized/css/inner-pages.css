@@ -1,4 +1,4 @@
-.header-section {
+#header-section-origin {
     background-image: url("../images/renoir-dance-moulin-galette.png");
 }
 
@@ -25,12 +25,14 @@
     font-size: 5.5vw;
 }
 
-.embedded-img-section img{
+.embedded-img {
     object-fit: cover;
     height: auto;
+    width: 100%;
+    margin-bottom: 2%;
 }
 
-.embedded-img-right {
+/* .embedded-img-right {
     float: right;
     width: 40%;
     height: auto;
@@ -43,7 +45,7 @@
     height: auto;
     margin-right: 2%;
 
-}
+} */
 
 .content-title {
     margin: 0;
@@ -58,8 +60,8 @@ img {
 }
 
 img:hover {
-    -webkit-transform:scale(1.5); /* or some other value */
-    transform:scale(1.5);
+    -webkit-transform:scale(1.05); /* or some other value */
+    transform:scale(1.05);
     /* background-color: rgba(29, 20, 17, 0.7);
     background-blend-mode: multiply; */
 }
