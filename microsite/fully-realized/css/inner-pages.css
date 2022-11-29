@@ -2,6 +2,16 @@
     background-image: url("../images/renoir-dance-moulin-galette.png");
 }
 
+#header-section-techniques {
+    background-image: url("../images/manet-folleis.jpg");
+}
+
+#header-section-content {
+    background-image: url("../images/orsay-grain-field.jpg");
+}
+
+/* ACTUAL CSS */
+
 .content {
     padding-top: 5%;
 }
