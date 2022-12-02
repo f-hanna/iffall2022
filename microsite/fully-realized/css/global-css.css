@@ -1,4 +1,6 @@
-
+* {
+    max-width: 100%;
+}
 
 body {
     /* width: 80%;
