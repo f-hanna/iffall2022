@@ -9,6 +9,7 @@ body {
 .topnav {
     display: block;
     flex: none;
+    padding-top: 3%;
 }
 
 .topnav a {
@@ -66,9 +67,7 @@ body {
     color: black;
 }
 
-footer {
-    background-color: black;
-}
+
 
 @media screen and (max-width: 1000px) {
 

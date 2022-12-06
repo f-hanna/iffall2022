@@ -14,6 +14,7 @@
 
 .content {
     padding-top: 5%;
+    height: 100%;
 }
 
 .content p {
@@ -28,7 +29,7 @@
     margin: 0;
     padding-left: 10%;
     bottom: 0;
-    
+
 }
 
 .impressionism-text h1 {
@@ -66,12 +67,13 @@
 }
 
 img {
-    transition:transform 0.25s ease;
+    transition: transform 0.25s ease;
 }
 
 img:hover {
-    -webkit-transform:scale(1.05); /* or some other value */
-    transform:scale(1.05);
+    -webkit-transform: scale(1.05);
+    /* or some other value */
+    transform: scale(1.05);
     /* background-color: rgba(29, 20, 17, 0.7);
     background-blend-mode: multiply; */
 }
@@ -84,10 +86,17 @@ img:hover {
 }
 
 .artist-caption {
+
+    color: rgba(29, 20, 17);
     padding-top: 3%;
     text-align: center;
     margin: auto;
-    
+
+}
+
+.artist-caption:hover {
+    color: rgba(29, 20, 17, 0.4);
+    text-decoration: none
 }
 
 .topnav {
@@ -96,7 +105,7 @@ img:hover {
 }
 
 .topnav a {
-    
+
     padding-left: 40%;
     float: none;
     display: block;
@@ -105,19 +114,69 @@ img:hover {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 14px;
-  }
+}
+
+.text {
+    padding-bottom:  10%;
+}
+
+.footer {
+    
+    margin: 0 auto;
+    
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer hr {
+    border-top: 1px solid rgba(29, 20, 17, .4);
+}
+
+.footer-nav a {
+    font-weight: 900;
+    margin-left: 10%;
+    justify-content: center;
+    color: rgba(29, 20, 17);
+}
+
+.footer-source {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.footer-source p {
+    padding-bottom: 0;
+    margin-right: 4%;
+    justify-content: center;
+}
 
 
 @media screen and (max-width: 800px) {
     .topnav {
         padding-left: 10%;
-        
-      }
-    .topnav a:not(:nth-of-type(1)) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
+        display: inline-flex;
+        justify-content: space-between;
     }
-  }
 
+    .topnav a:not(:nth-of-type(1)) {
+        display: none;
+    }
 
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .text {
+        padding-bottom: 20%;
+        
+    }
+    .footer a {
+        display: block;
+       margin-bottom: 5%;
+        
+    }
+}
