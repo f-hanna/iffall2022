@@ -6,6 +6,22 @@ body {
     display: flex;
 } */
 
+.topnav {
+    display: block;
+    flex: none;
+}
+
+.topnav a {
+    padding-left: 20%;
+    
+   
+    color: #f2f2f2;
+  
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
 #index-container {
     display: block;
 }
@@ -13,7 +29,7 @@ body {
 #index-header {
     color: rgba(213, 213, 213, 1);
     font-family: 'Playfair Display SC', serif;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 #index-header h1 {
@@ -37,6 +53,12 @@ body {
     background-blend-mode: multiply;
 
     padding: 5%;
+
+    overflow: scroll;
+
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+
 }
 
 .btn-light {
@@ -47,3 +69,24 @@ body {
 footer {
     background-color: black;
 }
+
+@media screen and (max-width: 1000px) {
+
+    #index-header h1 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    #index-header h1 {
+        font-size: 32px;
+        padding-left: 10%;
+    }
+    
+
+    .icon {
+        position: absolute;
+        right: 250;
+    }
+  }

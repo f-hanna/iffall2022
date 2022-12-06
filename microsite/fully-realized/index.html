@@ -17,6 +17,8 @@
     <!-- THE STYLE -->
     <link rel="stylesheet" href="css/global-css.css">
     <link rel="stylesheet" href="css/index-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,22 +27,39 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">Overview<span class="sr-only">(current)</span></a>
+    <header>       
+
+        <div class="topnav content-title" id="myTopnav">
+            
+            <div id="myLinks">
+                <a class="nav-item nav-link" href="index.html">Overview</a>
                 <a class="nav-item nav-link" href="origin.html">Origin</a>
                 <a class="nav-item nav-link" href="techniques.html">Techniques</a>
                 <a class="nav-item nav-link" href="content.html">Content</a>
                 <a class="nav-item nav-link" href="artists.html">Artists</a>
-
             </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
 
-
-        </nav>
+          </div>
+       
     </header>
     <div id="index-content" class="container" class="content">
         <div class="row">
@@ -98,9 +117,7 @@
 
         </nav>
 
-    </footer> -->
-
-
+    </footer> -->      
 
 </body>
 
