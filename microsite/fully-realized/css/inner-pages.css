@@ -133,6 +133,10 @@ img:hover {
     border-top: 1px solid rgba(29, 20, 17, .4);
 }
 
+.footer-nav {
+    padding-top: 5%;
+}
+
 .footer-nav a {
     font-weight: 900;
     margin-left: 10%;
@@ -141,6 +145,12 @@ img:hover {
 }
 
 .footer-source {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    
+    text-align: center;
+    justify-content: space-evenly;
     display: flex;
     text-align: center;
     margin: 0 auto;
@@ -179,4 +189,13 @@ img:hover {
        margin-bottom: 5%;
         
     }
+
+    .footer-source {
+        padding-top: 3%;
+        padding-bottom: 10%;
+        margin: 0 auto;
+        
+    }
+
+    
 }
