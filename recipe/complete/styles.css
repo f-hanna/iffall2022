@@ -118,3 +118,34 @@ header {
 .directions-step {
     margin-bottom: 3%;
 }
+
+.milk-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.milk-img {
+    max-width: 30%;
+    width: auto;
+    height: 500px;
+
+    object-fit: cover;
+    transition: transform 0.25s ease;
+    border-radius: 20px;
+}
+
+.milk-img:hover {
+    -webkit-transform: scale(1.05);
+    /* or some other value */
+    transform: scale(1.05);
+    /* background-color: rgba(29, 20, 17, 0.7);
+    background-blend-mode: multiply; */
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer {
+    margin-bottom: 20%;
+}
