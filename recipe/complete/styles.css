@@ -1,17 +1,38 @@
-body {
+/* set up global colors */
+:root {
+
+    --red: #DC2C2C;
+    --light-red: #FFE1E1;
+    --cream: rgb(255, 236, 217);
+
+
+}
+
+html {
     font-family: Poppins;
 }
 
 header {
     height: 90%;
     background-image: url("images/main-fried-milk.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: auto;
     padding-top: 40%;
-    color: white;
+    color: rgb(36, 36, 36);
     margin: auto 0;
     object-fit: fill;
+}
+
+.header-text {
+    background-color: rgba(255, 255, 255, 0.504);
+    padding: 3% 15%;
+}
+
+.intro {
+    background-color: var(--light-red);
+    border-radius: 20px;
+    padding: 10%;
 }
 
 #text-wrap {
@@ -19,9 +40,9 @@ header {
     margin: auto;
 }
 
-#text-wrap > * {
+#text-wrap>* {
     margin-top: 10%;
-    margin-bottom: 10%;
+    
 }
 
 #summary {
@@ -29,12 +50,71 @@ header {
     align-content: space-between;
     align-self: center;
     text-align: center;
+    
+    border-radius: 20px;
 
 }
 
 .summary-column {
     /* display: inline-flex; */
-    margin-left: 10%;
+    margin: auto;
+
+}
+
+.equipment-ingredients {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.equipment-ingredients>* {
+    width: 45%;
+}
+
+.ingredient-item {
+    display: flex;
+}
+
+.equipment ul, .ingredients-list {
+    padding-top: 10%;
+}
+
+.equipment ul>*,
+.ingredients-list>* {
+    margin-bottom: 10%;
+}
+
+.ingredient-amount {
+    color: var(--red);
+    margin-right: 2%;
+}
 
 
+
+.ingredient-item > input {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-radius: 3px;
+    accent-color: #ffffff;
+    vertical-align: middle;
+    font-size: 2rem;
+    width: 2em;
+}
+
+
+.directions-section {
+    background-color: var(--light-red);
+    padding: 10%;
+    border-radius: 20px;
+}
+
+#directions-list {
+    margin-top: 5%
+}
+
+.directions-step {
+    margin-bottom: 3%;
 }

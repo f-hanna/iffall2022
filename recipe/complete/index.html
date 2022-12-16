@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fried Milk Recipe</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
 <body>
@@ -56,10 +58,10 @@
                 </div>
 
 
-                <hr />
+               
             </div>
         </section>
-
+        <hr />
         <section>
             <div class="content-area">
                 <div class="equipment-ingredients">
@@ -76,29 +78,52 @@
                         <h2>Ingredients</h2>
                         <div class="ingredients-list">
                             <div class="ingredient-item">
-                                <div class="ingredient-amount">1 cup</div>
-                                <div class="ingredient-description">coconut milk</div>
+                                <input type="checkbox" class="ingredient-check">
+                                <div class="ingredient-amount">
+                                    1 cup
+                                </div>
+                                <div class="ingredient-description">
+                                    coconut milk
+                                </div>
 
                             </div>
 
+                            <div class="ingredient-item">
+                                <input type="checkbox" class="ingredient-check">
+                                <div class="ingredient-amount">&frac14; cup</div>
+                                <div class="ingredient-description">milk</div>
 
-                            <div class="ingredient-amount">&frac14; cup</div>
-                            <div class="ingredient-description">milk</div>
+                            </div>
 
-                            <div class="ingredient-amount">3 tbsp.</div>
-                            <div class="ingredient-description">cornstarch</div>
+                            <div class="ingredient-item">
+                                <input type="checkbox" class="ingredient-check">
+                                <div class="ingredient-amount">3 tbsp.</div>
+                                <div class="ingredient-description">cornstarch</div>
+                            </div>
 
-                            <div class="ingredient-amount">3 tbsp.</div>
-                            <div class="ingredient-description">sugar</div>
+                            <div class="ingredient-item">
+                                <input type="checkbox" class="ingredient-check">
+                                <div class="ingredient-amount">3 tbsp.</div>
+                                <div class="ingredient-description">sugar</div>
+                            </div>
 
-                            <div class="ingredient-amount">2</div>
-                            <div class="ingredient-description">large eggs</div>
+                            <div class="ingredient-item">
+                                <input type="checkbox" class="ingredient-check">
+                                <div class="ingredient-amount">2</div>
+                                <div class="ingredient-description">large eggs</div>
+                            </div>
 
-                            <div class="ingredient-amount">&frac14; cup</div>
-                            <div class="ingredient-description">cornstarch</div>
+                            <div class="ingredient-item">
+                                <input type="checkbox" class="ingredient-check">
+                                <div class="ingredient-amount">&frac14; cup</div>
+                                <div class="ingredient-description">cornstarch</div>
+                            </div>
 
-                            <div class="ingredient-amount">1 cup (80g)</div>
-                            <div class="ingredient-description">panko</div>
+                            <div class="ingredient-item">
+                                <input type="checkbox" class="ingredient-check">
+                                <div class="ingredient-amount">1 cup (80g)</div>
+                                <div class="ingredient-description">panko</div>
+                            </div>
 
 
                         </div>
@@ -109,7 +134,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="directions-section">
             <div class="content-area">
                 <h2>Directions</h2>
                 <ol id="directions-list">
